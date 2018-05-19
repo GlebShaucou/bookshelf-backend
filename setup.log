@@ -1,0 +1,11 @@
+npm init
+git init
+
+create .gitignore
+
+npm install --save-dev eslint
+./node_modules/.bin/eslint --init
+
+npm install --save-dev nodemon
+npm install --save express
+npm install --save mongodb || npm install --save mongoose
